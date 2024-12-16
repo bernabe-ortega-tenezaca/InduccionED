@@ -1,6 +1,25 @@
 ﻿while (true)
 {
+    Menu();
     string opcion = Console.ReadLine(); //Readline lee desde teclado
+
+    switch (opcion)
+    {
+        case "0":
+            return;
+        case "1":
+            Titulo("Tipos de datos");
+            break;
+        case "2":
+            Titulo("POO - Estamos trabajando");
+            break;
+        case "3":
+            Titulo("Arrays y matrices");
+            break;
+        default:
+            Console.WriteLine("Opción invalida, pulse una tecla para continuar");
+            break;
+    }
 }
 
 
