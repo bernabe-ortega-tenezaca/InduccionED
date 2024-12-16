@@ -15,6 +15,7 @@
             break;
         case "3":
             Titulo("Arrays y matrices");
+            ArrayMatriz.Run();
             break;
         default:
             Console.WriteLine("Opción invalida, pulse una tecla para continuar");
